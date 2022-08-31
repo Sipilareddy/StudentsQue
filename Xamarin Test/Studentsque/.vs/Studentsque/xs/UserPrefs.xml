@@ -1,0 +1,74 @@
+﻿<Properties StartupConfiguration="{52F7E671-8215-47EA-974A-A8DAFFD60DD2}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Studentsque.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3B5C7D42-4DD3-4EE3-853F-6A8C41BD528B" />
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="12.3.0.3.3" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Studentsque/Studentsque/Views/StudentDetailsPage.xaml">
+    <Files>
+      <File FileName="Studentsque/Studentsque/Models/Student.cs" Line="23" Column="29" />
+      <File FileName="Studentsque/Studentsque/ViewModels/StudentViewModel.cs" Line="29" Column="33" />
+      <File FileName="Studentsque/Studentsque/Views/StudentsPage.xaml" Line="11" Column="26" />
+      <File FileName="Studentsque/Studentsque/Views/StudentsPage.xaml.cs" Line="19" Column="1" />
+      <File FileName="Studentsque/Studentsque/Behaviors/EventToCommandBehavior.cs" Line="115" Column="1" />
+      <File FileName="Studentsque/Studentsque/Behaviors/BehaviorBase.cs" Line="23" Column="46" />
+      <File FileName="Studentsque/Studentsque/Renderers/RoundedEntry.cs" Line="8" Column="3" />
+      <File FileName="Studentsque/Studentsque.Android/Renderers/RoundedEntryRendererAndroid.cs" Line="23" Column="69" />
+      <File FileName="Studentsque/Studentsque.iOS/Renderers/RoundedEntryRendererIos.cs" Line="11" Column="6" />
+      <File FileName="Studentsque/Studentsque/Services/StudentService.cs" Line="24" Column="37" />
+      <File FileName="Studentsque/Studentsque.iOS/Main.cs" Line="17" Column="1" />
+      <File FileName="Studentsque/Studentsque/Views/StudentDetailsPage.xaml" Line="23" Column="1" />
+      <File FileName="Studentsque/Studentsque/Views/StudentDetailsPage.xaml.cs" Line="15" Column="1" />
+      <File FileName="Studentsque/Studentsque/Interface/IMessage.cs" Line="4" Column="33" />
+      <File FileName="Studentsque/Studentsque.Android/MessageAndroid.cs" Line="9" Column="2" />
+      <File FileName="Studentsque/Studentsque.iOS/MessageIOS.cs" Line="14" Column="40" />
+      <File FileName="Studentsque/Studentsque.Android/MainActivity.cs" Line="10" Column="68" />
+      <File FileName="Studentsque/Studentsque/Converters/CustomColorConverter.cs" Line="13" Column="1" />
+      <File FileName="Studentsque/Studentsque/Views/LoginPage.xaml" Line="21" Column="16" />
+      <File FileName="Studentsque/Studentsque/Views/LoginPage.xaml.cs" Line="9" Column="4" />
+      <File FileName="Studentsque/Studentsque/App.xaml.cs" Line="14" Column="56" />
+      <File FileName="Studentsque/Studentsque/ViewModels/LoginPageViewModel.cs" Line="22" Column="27" />
+      <File FileName="Studentsque/Studentsque/MainPage.xaml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Studentsque" expanded="True">
+            <Node name="Studentsque" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+                <Node name="SdkDependencies" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Resources" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True" />
+            </Node>
+            <Node name="Studentsque.Android" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="Renderers" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="drawable" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="Studentsque.iOS" expanded="True">
+              <Node name="Renderers" expanded="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/ViewModels/StudentViewModel.cs" relfile="Studentsque/Studentsque/ViewModels/StudentViewModel.cs" line="85" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.pixel_5_-_api_30" />
+  <MonoDevelop.Ide.ItemProperties.Studentsque.Android PreferredExecutionTarget="Android.pixel_5_-_api_30" />
+</Properties>

@@ -1,0 +1,34 @@
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/bin/Debug/netstandard2.0/Studentsque.deps.json
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/bin/Debug/netstandard2.0/Studentsque.dll
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/bin/Debug/netstandard2.0/ref/Studentsque.dll
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/bin/Debug/netstandard2.0/Studentsque.pdb
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Studentsque.csproj.AssemblyReference.cache
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Views/StudentDetailsPage.xaml.g.cs
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Views/StudentsPage.xaml.g.cs
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Studentsque.AssemblyInfoInputs.cache
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Studentsque.AssemblyInfo.cs
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Studentsque.csproj.CoreCompileInputs.cache
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Studentsque.dll
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/ref/Studentsque.dll
+/Users/harishkanagella/Projects/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Studentsque.pdb
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/bin/Debug/netstandard2.0/Studentsque.deps.json
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/bin/Debug/netstandard2.0/Studentsque.dll
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/bin/Debug/netstandard2.0/ref/Studentsque.dll
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/bin/Debug/netstandard2.0/Studentsque.pdb
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Studentsque.csproj.AssemblyReference.cache
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Views/LoginPage.xaml.g.cs
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Views/StudentDetailsPage.xaml.g.cs
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Views/StudentsPage.xaml.g.cs
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Studentsque.AssemblyInfoInputs.cache
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Studentsque.AssemblyInfo.cs
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Studentsque.csproj.CoreCompileInputs.cache
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Studentsque.dll
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/ref/Studentsque.dll
+/Users/harishkanagella/Desktop/Main App/Studentsque/Studentsque/Studentsque/obj/Debug/netstandard2.0/Studentsque.pdb

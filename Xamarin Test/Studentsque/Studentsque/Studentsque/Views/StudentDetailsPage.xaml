@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="Student details"
+    x:Class="Studentsque.Views.StudentDetailsPage">
+   <ContentPage.Content>
+        <StackLayout>
+            <Image Source="ContactIcon.png" 
+                   WidthRequest="200" 
+                   HeightRequest="200"></Image>
+
+            <Label Text="{Binding Student.StudentName}" 
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="Title"
+                   FontAttributes="Bold"></Label>
+
+            <Label Text="{Binding Student.Course}"
+                   HorizontalOptions="CenterAndExpand"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" BackgroundColor="Transparent"
+    Title="Students List"
+    NavigationPage.HasBackButton="False"
+    xmlns:behaviors="clr-namespace:Studentsque.Behaviors"
+    xmlns:renders="clr-namespace:Studentsque.Renderers"
+    x:Name="StudentsList"
+    x:Class="Studentsque.Views.StudentsPage">
+    <ContentPage.Content>
+
+        <StackLayout>
+       
+            <Grid HorizontalOptions="FillAndExpand" Margin="10" HeightRequest="50" ColumnDefinitions="5*,*">
+                <renders:RoundedEntry x:Name="SearchBar" Placeholder="Search here....." PlaceholderColor="LightSlateGray" FontSize ="Small">
+                    <renders:RoundedEntry.Behaviors>
+                         <behaviors:EventToCommandBehavior EventName="TextChanged"
+                                                  Command="{Binding searchCommand}"
+                                                  CommandParameter="{Binding Text, Source={x:Reference SearchBar}}"/>
+                    </renders:RoundedEntry.Behaviors>
+                </renders:RoundedEntry>
+                
+                <Label Text="Sort" Grid.Column="1" VerticalTextAlignment="Center" TextColor="Black" FontAttributes="Bold">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Command="{Binding sortCommand}"/>
+                    </Label.GestureRecognizers>
+
+                </Label>
+               
+            </Grid>
+        <CollectionView SelectionMode="Single"  SelectionChanged="CollectionView_SelectionChanged" ItemsSource="{Binding StudentsList}"  HorizontalOptions="FillAndExpand"  VerticalOptions="FillAndExpand"
+                       >
+                <CollectionView.Margin>
+                            <OnIdiom x:TypeArguments="Thickness"
+                                        Phone="10,10,10,0"
+                                    Tablet="40,20,40,0"/>
+                 </CollectionView.Margin>
+                <CollectionView.EmptyView>
+                    <Label Text="No matches found" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                </CollectionView.EmptyView>
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                        <StackLayout Spacing="5" >
+                 <Frame Margin="3" BackgroundColor="Black" HasShadow="False" Padding="3">
+                  <Grid  BackgroundColor="White" Padding="20">
+                            <Grid.RowDefinitions>
+                               <RowDefinition Height="*"/>
+                               <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="6*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                           <Image Source="ContactIcon.png" HeightRequest="25" WidthRequest="25" Grid.RowSpan="2" Margin="5" VerticalOptions="FillAndExpand"/>
+                            <Label Text="{Binding StudentName}" TextColor="Black" Grid.Row="0" Grid.Column="1"/>
+                            <Label Text="{Binding Gender}" TextColor="Black" Grid.Row="1" Grid.Column="1"/>
+                            <Image Source="arrow.png" HorizontalOptions="EndAndExpand" HeightRequest="15" WidthRequest="15" Grid.RowSpan="2" Margin="15" Grid.Column="2" VerticalOptions="FillAndExpand"/>
+                        </Grid>
+                            </Frame>
+                            
+                            </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </StackLayout>
+
+
+    </ContentPage.Content>
+</ContentPage>
+
